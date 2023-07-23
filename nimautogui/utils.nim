@@ -1,5 +1,8 @@
 import strutils, winim
 
+func `to32`*(str: string): int32 =
+    return cast[int32](str.parseInt)
+
 func getid*(str: string): WORD =
     case str:
     of "a":
