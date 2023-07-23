@@ -3,8 +3,7 @@
 version     = "0.1.1"
 author      = "Cooperzilla"
 description = "Moving the mouse around in nim inspired by python's pyautogui. Windows Only"
-license     = "MIT"
-srcDir      = "src"
+license     = "GNU GENERAL PUBLIC LICENSE"
 
 # Deps
 
