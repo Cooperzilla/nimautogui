@@ -1,4 +1,4 @@
-import winim, os, osproc, math, private/utils
+import winim, os, osproc, math, nimautogui/utils
 
 proc setpos*(x: int32, y: int32) =
     SetCursorPos(x, y)
